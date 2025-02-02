@@ -4,3 +4,10 @@ prices.push(16.99);
 prices.shift();
 console.log(prices);
 
+//Task 2: Modifying Customer Order Scenario 
+let orders = [2,5,10,4,7];
+orders[2] += 5; 
+let totalOrders = orders.reduce((sum, quantity) => sum + quantity, 0);
+
+console.log('Updated Orders', orders);
+console.log('Total Order Count', totalOrders);
