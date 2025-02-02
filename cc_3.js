@@ -37,3 +37,19 @@ let feedback = [
     rating: 4
   });
 console.log(feedback);
+
+//Task 5: Inventory Management System Scenario 
+let inventory = {
+    itemName: "Smartphone",
+    stockCount: 300,
+    price: 899.99,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+      }
+};
+
+console.log("Inventory Details:");
+console.log("Item Name:", inventory.itemName);
+console.log("Stock Count:", inventory.stockCount);
+console.log("Price:", inventory.price);
+console.log("Total Value:", inventory.calculateTotalValue());
