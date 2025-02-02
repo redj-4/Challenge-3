@@ -11,3 +11,15 @@ let totalOrders = orders.reduce((sum, quantity) => sum + quantity, 0);
 
 console.log('Updated Orders', orders);
 console.log('Total Order Count', totalOrders);
+
+//Task 3: Employee Performance Tracking Scenario 
+let employee = {
+    name: "Jack Mioff",
+    role: "Software Engineer",
+    performanceScore: 80,
+    isActive: true,
+};
+
+employee.performanceScore = 90;
+employee.promotionElgible = true; 
+console.log(employee);
