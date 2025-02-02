@@ -14,7 +14,7 @@ console.log('Total Order Count', totalOrders);
 
 //Task 3: Employee Performance Tracking Scenario 
 let employee = {
-    name: "Jack Mioff",
+    name: "Carl Baskins",
     role: "Software Engineer",
     performanceScore: 80,
     isActive: true,
@@ -23,3 +23,17 @@ let employee = {
 employee.performanceScore = 90;
 employee.promotionElgible = true; 
 console.log(employee);
+
+//Task 4: Customer Feedback Records Scenario 
+let feedback = [
+    { customerName: "Carl Baskins", feedbackText: "Great service!", rating: 5 },
+    { customerName: "Bob Marley", feedbackText: "Average experience.", rating: 3 },
+    { customerName: "Charlie Puth", feedbackText: "Could be better.", rating: 2 }
+  ];
+
+  feedback.push({
+    customerName: "Bob Marley",
+    feedbackText: "Excellent quality and quick delivery.",
+    rating: 4
+  });
+console.log(feedback);
